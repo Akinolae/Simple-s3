@@ -44,7 +44,7 @@ Made to ease the register process by masking endpoints, helps to speed up coding
 ```jsx title="index..js"
 import { deleteS3Video } from "Simple-s3"
 try {
- const res = await upload(file, configuration: object)
+ const res = await deleteS3Video(file, configuration: object)
  return res
 }
 catch(e){
