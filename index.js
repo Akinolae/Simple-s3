@@ -1,5 +1,5 @@
-import { extractFileType, mediaTypes } from "../../utils/fileUtils";
-import S3 from "../../lib/aws-sdk";
+import { extractFileType, mediaTypes } from "./utils/fileUtils";
+import S3 from "./lib/aws-sdk";
 
 //gets the aws config according to the file type
 // the file type is a key determinant of where each media/experience gets stored on AWS
