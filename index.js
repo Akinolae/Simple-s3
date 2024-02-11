@@ -62,7 +62,7 @@ const s3Upload = async (params = {}) => {
 const deleteS3Video = async (fileName, { type, config }) => {
   const aws = awsConfig(type, config);
   try {
-    const response = await aws.deleteFile(fileName, bucketName);
+    const response = await aws.deleteFile(fileName);
     const { message } = response;
     return message;
   } catch (error) {
