@@ -44,8 +44,10 @@ const s3Upload = async (params = {}) => {
   // Hence the need to extract data object from the uri provided before processing upload
   // This is made to be backward compatible and cut the cost and time spent on integration.
 
-  const data =
-    process.env.appType === "web" ? file : await fetchDataBlob(file.uri);
+  const data = file;
+  // process.env.appType === "web" ?
+
+  //  : await fetchDataBlob(file.uri);
 
   const client = awsConfig(data.type, configuration);
   try {
