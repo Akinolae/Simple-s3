@@ -2,7 +2,7 @@
 
 ## `Description`
 
-Simple-s3 is the simplified way to upload documents, files, images to AWS s3 without hassle. It abstracts the configuration layer for your, hence helps you focus strictly on coding.
+Simple-s3 is the simplified way to upload documents, files, and images to AWS s3 without hassle. It abstracts the configuration layer for you, hence helping you focus strictly on coding.
 
 ```
 npm i https://github.com/Akinolae/Simple-s3
@@ -22,7 +22,7 @@ Documents are **groups of pages** connected through:
 
 ## `Upload`
 
-Made to ease the register process by masking endpoints, helps to speed up coding process.
+Made to ease the register process by masking endpoints, helps to speed up the coding process.
 
 ```jsx title="auth/index.ts"
 
@@ -39,7 +39,7 @@ throw e
 
 ## `2FA Auth`
 
-Made to ease the register process by masking endpoints, helps to speed up coding process.
+Made to ease the register process by masking endpoints, helps to speed up the coding process.
 
 ```jsx title="index..js"
 import { deleteS3Video } from "Simple-s3"
