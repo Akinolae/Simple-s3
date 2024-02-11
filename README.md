@@ -37,7 +37,7 @@ throw e
 
 ```
 
-## `2FA Auth`
+## `delete`
 
 Made to ease the register process by masking endpoints, helps to speed up the coding process.
 
